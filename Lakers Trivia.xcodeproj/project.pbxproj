@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073F46E530B3C1CE6E3EF853 /* Pods_Lakers_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B921133F253AC8619A5013 /* Pods_Lakers_Trivia.framework */; };
 		6E7229B321A66DB500454CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229B221A66DB500454CAA /* AppDelegate.swift */; };
-		6E7229B521A66DB500454CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229B421A66DB500454CAA /* ViewController.swift */; };
-		6E7229B821A66DB500454CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7229B621A66DB500454CAA /* Main.storyboard */; };
 		6E7229BA21A66DB600454CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7229B921A66DB600454CAA /* Assets.xcassets */; };
 		6E7229BD21A66DB600454CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7229BB21A66DB600454CAA /* LaunchScreen.storyboard */; };
+		6E7229C521A66E2300454CAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229C421A66E2300454CAA /* HomeViewController.swift */; };
+		6E7229C721A6732700454CAA /* SelectDifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229C621A6732700454CAA /* SelectDifficultyViewController.swift */; };
+		6E7229C921A678E800454CAA /* EasyLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229C821A678E800454CAA /* EasyLevelViewController.swift */; };
+		6E7229CB21A67E6100454CAA /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229CA21A67E6100454CAA /* Questions.swift */; };
+		6E7229CD21A6800000454CAA /* EasyQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7229CC21A6800000454CAA /* EasyQuestions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FD289E79DB2B955F6AAE779 /* Pods-Lakers Trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lakers Trivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lakers Trivia/Pods-Lakers Trivia.release.xcconfig"; sourceTree = "<group>"; };
+		60B921133F253AC8619A5013 /* Pods_Lakers_Trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lakers_Trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7229AF21A66DB500454CAA /* Lakers Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lakers Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7229B221A66DB500454CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E7229B421A66DB500454CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E7229B721A66DB500454CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E7229B921A66DB600454CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E7229BC21A66DB600454CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7229BE21A66DB600454CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7229C421A66E2300454CAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6E7229C621A6732700454CAA /* SelectDifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDifficultyViewController.swift; sourceTree = "<group>"; };
+		6E7229C821A678E800454CAA /* EasyLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLevelViewController.swift; sourceTree = "<group>"; };
+		6E7229CA21A67E6100454CAA /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		6E7229CC21A6800000454CAA /* EasyQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyQuestions.swift; sourceTree = "<group>"; };
+		DCA1F9969C96B5DCDB01163D /* Pods-Lakers Trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lakers Trivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lakers Trivia/Pods-Lakers Trivia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073F46E530B3C1CE6E3EF853 /* Pods_Lakers_Trivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				6E7229B121A66DB500454CAA /* Lakers Trivia */,
 				6E7229B021A66DB500454CAA /* Products */,
+				8403D09F058F56BCA4DD92F9 /* Pods */,
+				C3923CCE5173A48952B9597F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				6E7229B221A66DB500454CAA /* AppDelegate.swift */,
-				6E7229B421A66DB500454CAA /* ViewController.swift */,
-				6E7229B621A66DB500454CAA /* Main.storyboard */,
 				6E7229B921A66DB600454CAA /* Assets.xcassets */,
 				6E7229BB21A66DB600454CAA /* LaunchScreen.storyboard */,
 				6E7229BE21A66DB600454CAA /* Info.plist */,
+				6E7229C421A66E2300454CAA /* HomeViewController.swift */,
+				6E7229C621A6732700454CAA /* SelectDifficultyViewController.swift */,
+				6E7229C821A678E800454CAA /* EasyLevelViewController.swift */,
+				6E7229CA21A67E6100454CAA /* Questions.swift */,
+				6E7229CC21A6800000454CAA /* EasyQuestions.swift */,
 			);
 			path = "Lakers Trivia";
+			sourceTree = "<group>";
+		};
+		8403D09F058F56BCA4DD92F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1F9969C96B5DCDB01163D /* Pods-Lakers Trivia.debug.xcconfig */,
+				3FD289E79DB2B955F6AAE779 /* Pods-Lakers Trivia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3923CCE5173A48952B9597F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B921133F253AC8619A5013 /* Pods_Lakers_Trivia.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E7229C121A66DB600454CAA /* Build configuration list for PBXNativeTarget "Lakers Trivia" */;
 			buildPhases = (
+				60BAFD6F32AFA4A752CFCB4E /* [CP] Check Pods Manifest.lock */,
 				6E7229AB21A66DB500454CAA /* Sources */,
 				6E7229AC21A66DB500454CAA /* Frameworks */,
 				6E7229AD21A66DB500454CAA /* Resources */,
+				A5327C4958726727C23DDEF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +159,75 @@
 			files = (
 				6E7229BD21A66DB600454CAA /* LaunchScreen.storyboard in Resources */,
 				6E7229BA21A66DB600454CAA /* Assets.xcassets in Resources */,
-				6E7229B821A66DB500454CAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60BAFD6F32AFA4A752CFCB4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lakers Trivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5327C4958726727C23DDEF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lakers Trivia/Pods-Lakers Trivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lakers Trivia/Pods-Lakers Trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E7229AB21A66DB500454CAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E7229B521A66DB500454CAA /* ViewController.swift in Sources */,
+				6E7229CB21A67E6100454CAA /* Questions.swift in Sources */,
 				6E7229B321A66DB500454CAA /* AppDelegate.swift in Sources */,
+				6E7229C921A678E800454CAA /* EasyLevelViewController.swift in Sources */,
+				6E7229C721A6732700454CAA /* SelectDifficultyViewController.swift in Sources */,
+				6E7229C521A66E2300454CAA /* HomeViewController.swift in Sources */,
+				6E7229CD21A6800000454CAA /* EasyQuestions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6E7229B621A66DB500454CAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E7229B721A66DB500454CAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6E7229BB21A66DB600454CAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +357,7 @@
 		};
 		6E7229C221A66DB600454CAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA1F9969C96B5DCDB01163D /* Pods-Lakers Trivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +376,7 @@
 		};
 		6E7229C321A66DB600454CAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD289E79DB2B955F6AAE779 /* Pods-Lakers Trivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
