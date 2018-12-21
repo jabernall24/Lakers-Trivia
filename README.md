@@ -1,4 +1,8 @@
 ## Lakers-Trivia
+Have you ever wanted to test your knowledge of the greatest NBA team? Well now you can, are you a true Laker fan or did you just jump in the banwagon. Take on the Lakers Trivia questions and find out.
+
+## Sample Runs ##
+# Easy: https://imgur.com/Dmkg1dZ.gif
 
 ## MIT License
 
